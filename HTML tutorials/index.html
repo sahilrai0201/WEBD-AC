@@ -6,19 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Hello World! </h1>
+    <!-- <h1> Hello World! </h1>
     <h2> Hello World! </h2>
     <h3> Hello World! </h3>
     <h4> Hello World! </h4>
     <h5> Hello World! </h5>
-    <h6> Hello World! </h6>
+    <h6> Hello World! </h6> -->
+    <!-- ----------------------------------------------------------------------------------- -->
 
-    <p> This is a Paragraph. </p>
 
-    <p> This is a <b>Paragraph1.</b> This is a <u>Paragraph2.</u> This is a <i>Paragraph3.</i> This is a <b>Paragraph4.</b> This is a <u>Paragraph5.</u> This is a <i>Paragraph6.</i></p>
+    <!-- <p> This is a Paragraph. </p>
+
+    <p> This is a <b>Paragraph1.</b> This is a <u>Paragraph2.</u> 
+        This is a <i>Paragraph3.</i> This is a <b>Paragraph4.</b> 
+        This is a <u>Paragraph5.</u> This is a <i>Paragraph6.</i></p> -->
     <!-- Toggle word wrap -->
+    <!-- ---------------------------------------------------------------------------------- -->
 
-    <a href="https://www.google.com/?hl=hi-IN"> Google Search </a>
+
+    <!-- <a href="https://www.google.com/?hl=hi-IN"> Google Search </a>
     <br>
     <a href="https://www.google.com/?hl=hi-IN" target="_main"> Google Search </a>
     <br>
@@ -27,9 +33,11 @@
     <br>
     <a href="./hello.html"> Go to Hello </a>
     <br>
-    <img src="cat.jpeg" alt="Cat" height="200">
+    <img src="cat.jpeg" alt="Cat" height="200"> -->
+    <!-- ---------------------------------------------------------------------------------- -->
 
-    <br>
+
+    <!-- <br>
     <b> BOLD </b>
     <i> ITALIC </i>
     <u> UNDERLINED </u>
@@ -38,16 +46,19 @@
     <big> This tag shows big text </big>
     <hr> 
     <small> This tag shows small text </small>
-    <br> <br>
+    <br> <br> -->
+    <!-- ---------------------------------------------------------------------------------- -->
 
-    <p> H<sub>2</sub>O </p>
+
+    <!-- <p> H<sub>2</sub>O </p>
     <p> a<sup>2</sup>+b<sup>2</sup></p>
     <br>
-
+    
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vel corporis repudiandae et earum deserunt debitis voluptas neque illo in?</p>
 
     <pre>Lorem ipsum dolor    sit amet, cons      ectetur adipisicing eli   t. Accusantium, rerum aut. Tempora ra   tione adipisci iure obca  ecati autem. Consequ atur, quisquam sequi!
-    </pre>
+    </pre> -->
+    <!-- ---------------------------------------------------------------------------------- -->
 
 
     <!-- <ul>
@@ -62,7 +73,7 @@
         <ul>Seson : Summer</ul>
     </ul> -->
 
-    <ol>
+    <!-- <ol>
         <li>Mango</li>
         <ol>
             <li>Color : yellow</li>
@@ -78,26 +89,110 @@
             <li>Color : Red</li>
             <li>Seson : Summer</li>
         </ol>
-    </ol>
+    </ol> -->
+    <!-- ---------------------------------------------------------------------------------- -->
 
 
-    <table>
+    <!-- <table>
+        <thead>
+        <caption>Student details</caption>
+        <tr>
+            <th colspan="3">INFORMATION</th>
+        </tr>
         <tr>
             <th>Name</th>
             <th>Marks</th>
             <th>City</th>
         </tr>
+        </thead>
+
+        <tbody>
         <tr>
             <td>Sahil</td>
             <td>98</td>
             <td>Noida</td>
         </tr>
+
         <tr>
             <td>Rishabh</td>
             <td>96</td>
             <td>Dadri</td>
         </tr>
-    </table>
+        </tbody>
+    </table> -->
+    <!-- ---------------------------------------------------------------------------------- -->
 
+
+
+    <h3>Registration Form</h3>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter Name">
+        <br> <br>
+        <input type="password" placeholder="Password">
+
+        <br> <br>
+        <h4>Select Your Class : </h4>
+        <label for="101">
+            <input type="radio" value="Class XI" name="class" id="101">Class XI
+        </label>
+        <label for="102">
+            <input type="radio" value="Class XII" name="class" id="102">Class XII
+        </label>
+        <br> <br>
+
+
+        <h4>Select Your Subjects : </h4>
+        <label for="Maths">
+            <input type="checkbox" value="Maths" name="subject" id="101">Maths
+        </label>
+        <label for="Physics">
+            <input type="checkbox" value="Physics" name="subject" id="102">Phyiscs
+        </label>
+        <label for="Chemistry">
+            <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+        </label>
+        <label for="English">
+            <input type="checkbox" value="English" name="subject" id="104">English
+        </label>
+        <label for="Computer Science">
+            <input type="checkbox" value="Computer Science" name="subject" id="105">Computer Science
+        </label>
+        <label for="History">
+            <input type="checkbox" value="History" name="subject" id="106">History
+        </label>
+        <label for="Physical">
+            <input type="checkbox" value="Physical" name="subject" id="107">Physical
+        </label>
+        <br> <br>
+
+        <h4>Select Your City : </h4>
+        <select name="city" id="111">
+            <option value="delhi"> Delhi </option>
+            <option value="mumbai"> Mumbai </option>
+            <option value="banglore"> Banglore </option>
+            <option value="pune"> Pune </option>
+        </select>
+
+        <br> <br>
+        <h4>Feedback : </h4>
+        <textarea name="feedback" id="101" placeholder="Give your feedback" rows="5"></textarea>
+
+        <br> <br>
+        <input type="submit" value="submit">
+
+    </form>
+    <!-- ---------------------------------------------------------------------------------- -->
+
+
+    <br> <br>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/HcOc7P5BMi4?si=qNSsH12rF3Sw7_fC" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br> <br>
+    <iframe width="560" height="315" src="https://www.wikipedia.org/" frameborder="0"></iframe>
+    
 </body>
 </html>
